@@ -22,5 +22,43 @@
                 <asp:Button CssClass="button_registro" ID="btnCrear" runat="server" Text="Registrar"  />
             </div>
          </div>
+        <table class="tabla_registro">
+            <thead class="table_head">
+                <tr>
+                    <th>Tipo de Vehiculo</th>
+                    <th>Matricula</th>
+                    <th>Hora de entrada</th>
+                    <th>Hora de Salida</th>
+                </tr>
+                
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Auto</td>
+                     <td>SNK668</td>
+                     <td>10/11/2020 17:04</td>
+                    <td>10/11/2020 22:04</td>
+                </tr>
+                <tr>
+                    <td>Moto</td>
+                     <td>SNK66D</td>
+                     <td>10/11/2020 12:04</td>
+                    <td>10/11/2020 18:04</td>
+                </tr>
+              <tr>
+                    <td>Auto</td>
+                     <td>SNK668</td>
+                     <td>10/11/2020 17:04</td>
+                    <td>10/11/2020 22:04</td>
+                </tr>
+                <tr>
+                    <td>Moto</td>
+                     <td>SNK66D</td>
+                     <td>10/11/2020 12:04</td>
+                    <td>10/11/2020 18:04</td>
+                </tr>
+
+            </tbody>
+        </table>
     </div>
 </asp:Content>

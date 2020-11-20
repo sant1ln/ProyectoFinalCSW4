@@ -109,10 +109,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .container_idk {
-    width: 60%;
+    width: 50%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -120,7 +121,7 @@
     align-items: center;
     font-size: 23px;
     background-color: #a6ffbe;
-    box-shadow: -7px 7px 17px 0px rgba(0,0,0,0.75);
+ 
 }
 
 .registro_data {
@@ -149,3 +150,19 @@
     
 }
 
+.tabla_registro{
+    margin-top: 40px;
+    border: 1px solid black;
+    width: 50%;
+    font-size:16px;
+
+}
+
+.table_head {
+    background-color: #a6ffbe
+}
+
+.tabla_registro td{
+    border: 1px solid black;
+
+}
