@@ -9,14 +9,14 @@
             <div class="container_input-data">
               <div class="container_data_text">
                   <asp:Label ID="Label1" runat="server" Text="Usuario"></asp:Label>
-                  <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                  <asp:TextBox ID="TxtUsuario" runat="server"></asp:TextBox>
               </div>
                <div class="container_data_text">
                   <asp:Label ID="Label2" runat="server" Text="Contraseña"></asp:Label>
-                  <asp:TextBox ID="TextBox2" runat="server" TextMode="Password"></asp:TextBox>
+                  <asp:TextBox ID="TxtPassword" runat="server" TextMode="Password"></asp:TextBox>
                </div>
             </div>  
-            <asp:Button CssClass="button_login" ID="btnIngresar" runat="server" Text="Ingresar"  />
+            <asp:Button CssClass="button_login" ID="btnIngresar" runat="server" Text="Ingresar" OnClick="btnIngresar_Click"  />
           </div>
     </div>
 </asp:Content>
